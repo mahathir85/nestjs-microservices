@@ -26,4 +26,11 @@ export class AppService {
 
    return payment;
   }
+
+  //To get all order list  
+  async all(): Promise<Payment[]> {
+    logger.log('Return all order');
+
+    return await this.paymentRepository.find();
+  }
 }

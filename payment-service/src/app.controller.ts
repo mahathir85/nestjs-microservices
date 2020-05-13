@@ -9,4 +9,9 @@ export class AppController {
   pay(data: any){
     return this.appService.pay(data);
   }
+
+  @MessagePattern({ cmd: 'all' })
+  all(data: any){
+    return this.appService.all();
+  }
 }

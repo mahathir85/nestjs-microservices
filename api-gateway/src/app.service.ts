@@ -31,7 +31,7 @@ export class AppService {
       );    
   }
 
-  //GET without paramter from API
+  //GET without parameter from API
   allOrder(){
     const pattern = { cmd: 'all' };
     const payload = {};
@@ -62,6 +62,17 @@ export class AppService {
       .pipe(
         map((message: string) => ({ message})),
       );    
+  }
+
+  //GET without parameter from API
+  allPayment(){
+    const pattern = { cmd: 'all' };
+    const payload = {};
+    return this.clientPaymentApp
+    .send<string>(pattern, payload)
+      .pipe(
+        map((message: string) => ({ message})),
+      );  
   }
 
 }

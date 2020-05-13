@@ -44,4 +44,10 @@ export class AppController {
   ){
     return this.appService.payOrder(orderId);
   }
+
+  //#API orderService - get all orders
+  @Get('pay/all')
+  allPayment(){
+    return this.appService.allPayment();
+  }
 }
