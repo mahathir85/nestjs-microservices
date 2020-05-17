@@ -7,11 +7,11 @@ services:
       - .:/usr/app/
       - /usr/app/node_modules
     ports:
-      - "3002:3002"
+      - "3001:3001"
     depends_on:
       - mysql
     environment:
-      DATABASE_URL: mysql://root:mypassword@localhost:3306/orderapp
+      DATABASE_URL: mysql://root:password@localhost:3306/orderapp
     networks:
       - default
   mysql:
@@ -19,9 +19,9 @@ services:
     command: --default-authentication-plugin=mysql_native_password
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: mypassword
+      MYSQL_ROOT_PASSWORD: password
       MYSQL_ROOT_HOST: '%'
       MYSQL_DATABASE: orderapp
 networks:
-  payments_default:
+  order_default:
     external: true
