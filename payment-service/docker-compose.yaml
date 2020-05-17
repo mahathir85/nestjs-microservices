@@ -1,0 +1,27 @@
+version: '2'
+services:
+  web:
+    build: .
+    command: npm run start:dev
+    volumes:
+      - .:/usr/app/
+      - /usr/app/node_modules
+    ports:
+      - "3002:3002"
+    depends_on:
+      - mysql
+    environment:
+      DATABASE_URL: mysql://root:password@localhost:3306/paymentapp
+    networks:
+      - default
+  mysql:
+    image: mysql:latest
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_ROOT_HOST: '%'
+      MYSQL_DATABASE: paymentapp
+networks:
+  payments_default:
+    external: true
