@@ -26,7 +26,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+This application will act as client to received http request from client and send to microservices (order-service & payment-service).
 
 ## Installation
 
