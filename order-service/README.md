@@ -26,7 +26,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+This order-service microservice will served to create, find, list, cancel & make payment of order.
 
 ## Installation
 
