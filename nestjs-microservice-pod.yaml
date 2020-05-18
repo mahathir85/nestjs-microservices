@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nestjs-microservices
+  labels:
+    app: nestjs-microservices
+spec:
+  containers:
+    - name: api-gateway
+      image: mahathir85/api-gateway:1.0.0
+      ports:
+        - containerPort: 3000
+    - name: order-service
+      image: mahathir85/order-service:1.0.0
+      ports:
+        - containerPort: 3001
+    - name: payment-service
+      image: mahathir85/payment-service:1.0.0
+      ports:
+        - containerPort: 3002
