@@ -26,7 +26,10 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Consist of 3 components
+- API-Gateway
+- Payment-Service
+- Order-Service
 
 ## Support
 
