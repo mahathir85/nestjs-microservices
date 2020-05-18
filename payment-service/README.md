@@ -26,7 +26,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+This payment-service microservice will served payment of order. It will return either the payment is confirmed or declined randomly.
 
 ## Installation
 
