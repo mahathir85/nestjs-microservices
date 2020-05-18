@@ -1,0 +1,15 @@
+[32m[Nest] 1   - [39m05/17/2020, 4:48:41 PM   [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 1   - [39m05/17/2020, 4:48:41 PM   [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +100ms[39m
+[32m[Nest] 1   - [39m05/17/2020, 4:48:42 PM   [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +130ms[39m
+[32m[Nest] 1   - [39m05/17/2020, 4:48:42 PM   [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +3ms[39m
+[32m[Nest] 1   - [39m05/17/2020, 4:48:42 PM   [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 1   - [39m05/17/2020, 4:48:42 PM   [38;5;3m[NestMicroservice] [39m[32mNest microservice successfully started[39m[38;5;3m +22ms[39m
+[32m[Nest] 1   - [39m05/17/2020, 4:48:42 PM   [32mMicroservice Payment is listening[39m
+[32m[Nest] 1   - [39m05/17/2020, 4:52:19 PM   [32mPayment for orderId: 3[39m
+[32m[Nest] 1   - [39m05/17/2020, 4:52:19 PM   [32mPayment status: DECLINED[39m
+[32m[Nest] 1   - [39m05/17/2020, 4:52:22 PM   [32mPayment for orderId: 3[39m
+[32m[Nest] 1   - [39m05/17/2020, 4:52:22 PM   [32mPayment status: CONFIRMED[39m
+[32m[Nest] 1   - [39m05/17/2020, 5:07:15 PM   [32mPayment for orderId: 2[39m
+[32m[Nest] 1   - [39m05/17/2020, 5:07:15 PM   [32mPayment status: DECLINED[39m
+[32m[Nest] 1   - [39m05/17/2020, 5:07:16 PM   [32mPayment for orderId: 2[39m
+[32m[Nest] 1   - [39m05/17/2020, 5:07:16 PM   [32mPayment status: CONFIRMED[39m

@@ -1,0 +1,11 @@
+[32m[Nest] 1   - [39m05/17/2020, 4:48:39 PM   [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 1   - [39m05/17/2020, 4:48:39 PM   [38;5;3m[InstanceLoader] [39m[32mClientsModule dependencies initialized[39m[38;5;3m +63ms[39m
+[32m[Nest] 1   - [39m05/17/2020, 4:48:39 PM   [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 1   - [39m05/17/2020, 4:48:39 PM   [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +27ms[39m
+[32m[Nest] 1   - [39m05/17/2020, 4:48:39 PM   [38;5;3m[RouterExplorer] [39m[32mMapped {/order/create, POST} route[39m[38;5;3m +5ms[39m
+[32m[Nest] 1   - [39m05/17/2020, 4:48:39 PM   [38;5;3m[RouterExplorer] [39m[32mMapped {/order/find/:id, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 1   - [39m05/17/2020, 4:48:39 PM   [38;5;3m[RouterExplorer] [39m[32mMapped {/order/all, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 1   - [39m05/17/2020, 4:48:39 PM   [38;5;3m[RouterExplorer] [39m[32mMapped {/order/cancel, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 1   - [39m05/17/2020, 4:48:39 PM   [38;5;3m[RouterExplorer] [39m[32mMapped {/order/pay, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 1   - [39m05/17/2020, 4:48:39 PM   [38;5;3m[RouterExplorer] [39m[32mMapped {/pay/all, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 1   - [39m05/17/2020, 4:48:39 PM   [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +4ms[39m

@@ -1,0 +1,21 @@
+[32m[Nest] 1   - [39m05/17/2020, 4:48:41 PM   [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 1   - [39m05/17/2020, 4:48:41 PM   [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +342ms[39m
+[32m[Nest] 1   - [39m05/17/2020, 4:48:41 PM   [38;5;3m[InstanceLoader] [39m[32mClientsModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 1   - [39m05/17/2020, 4:48:41 PM   [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +257ms[39m
+[32m[Nest] 1   - [39m05/17/2020, 4:48:41 PM   [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +11ms[39m
+[32m[Nest] 1   - [39m05/17/2020, 4:48:41 PM   [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 1   - [39m05/17/2020, 4:48:41 PM   [38;5;3m[NestMicroservice] [39m[32mNest microservice successfully started[39m[38;5;3m +34ms[39m
+[32m[Nest] 1   - [39m05/17/2020, 4:48:41 PM   [32mMicroservice Order is listening[39m
+[32m[Nest] 1   - [39m05/17/2020, 4:52:13 PM   [32mNew order created. The orderId: 3[39m
+[32m[Nest] 1   - [39m05/17/2020, 4:52:19 PM   [32mPrepare for payment for orderId: 3[39m
+[32m[Nest] 1   - [39m05/17/2020, 4:52:19 PM   [32mStatus order confirmation: CANCELED[39m
+[32m[Nest] 1   - [39m05/17/2020, 4:52:22 PM   [32mPrepare for payment for orderId: 3[39m
+[32m[Nest] 1   - [39m05/17/2020, 4:52:22 PM   [32mStatus order confirmation: CONFIRMED[39m
+[32m[Nest] 1   - [39m05/17/2020, 4:52:22 PM   [32mPlease wait 5 sec to deliver order.....[39m
+[32m[Nest] 1   - [39m05/17/2020, 4:52:27 PM   [32mOrder status: DELIVERED !!![39m
+[32m[Nest] 1   - [39m05/17/2020, 5:07:15 PM   [32mPrepare for payment for orderId: 2[39m
+[32m[Nest] 1   - [39m05/17/2020, 5:07:15 PM   [32mStatus order confirmation: CANCELED[39m
+[32m[Nest] 1   - [39m05/17/2020, 5:07:16 PM   [32mPrepare for payment for orderId: 2[39m
+[32m[Nest] 1   - [39m05/17/2020, 5:07:16 PM   [32mStatus order confirmation: CONFIRMED[39m
+[32m[Nest] 1   - [39m05/17/2020, 5:07:16 PM   [32mPlease wait 5 sec to deliver order.....[39m
+[32m[Nest] 1   - [39m05/17/2020, 5:07:21 PM   [32mOrder status: DELIVERED !!![39m
